@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Metro-UI-CSS</id>
+        <version>0.9.5.2</version>
+        <title>Metro UI CSS</title>
+        <authors>Sergey Pimenov,Sergey Volkov,Valerio Battaglia</authors>
+        <owners>sirkirby</owners>
+        <licenseUrl>https://raw.github.com/olton/Metro-UI-CSS/master/LICENSE</licenseUrl>
+        <projectUrl>http://metroui.org.ua/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8 Metro UI. This set of styles was developed as a self-contained solution. Includes ASP.Net bundling and minification support. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
+        <summary />
+        <releaseNotes>- https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md
+
+-minor followup update to package. still based on 0.9.5 release.</releaseNotes>
+        <tags>css javascript famework frontend less metro metroui modern modernui</tags>
+        <dependencies>
+            <dependency id="jQuery" version="1.9.1" />
+            <dependency id="WebActivatorEx" version="2.0.1" />
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="MetroUICSSBundleConfig.cs.pp" target="content\App_Start\MetroUICSSBundleConfig.cs.pp" />
+        <file src="modern-responsive.css" target="content\Content\metroui\css\modern-responsive.css" />
+        <file src="modern.css" target="content\Content\metroui\css\modern.css" />
+        <file src="theme-dark.css" target="content\Content\metroui\css\theme-dark.css" />
+        <file src="iconFont.eot" target="content\Content\metroui\fonts\iconFont.eot" />
+        <file src="iconFont.svg" target="content\Content\metroui\fonts\iconFont.svg" />
+        <file src="iconFont.ttf" target="content\Content\metroui\fonts\iconFont.ttf" />
+        <file src="iconFont.woff" target="content\Content\metroui\fonts\iconFont.woff" />
+        <file src="preloader-w8-cycle-black.gif" target="content\Content\metroui\images\preloader-w8-cycle-black.gif" />
+        <file src="preloader-w8-cycle-white.gif" target="content\Content\metroui\images\preloader-w8-cycle-white.gif" />
+        <file src="preloader-w8-line-black.gif" target="content\Content\metroui\images\preloader-w8-line-black.gif" />
+        <file src="preloader-w8-line-white.gif" target="content\Content\metroui\images\preloader-w8-line-white.gif" />
+        <file src="accordion.js" target="content\Scripts\metroui\accordion.js" />
+        <file src="buttonset.js" target="content\Scripts\metroui\buttonset.js" />
+        <file src="calendar.js" target="content\Scripts\metroui\calendar.js" />
+        <file src="carousel.js" target="content\Scripts\metroui\carousel.js" />
+        <file src="dialog.js" target="content\Scripts\metroui\dialog.js" />
+        <file src="dropdown.js" target="content\Scripts\metroui\dropdown.js" />
+        <file src="input-control.js" target="content\Scripts\metroui\input-control.js" />
+        <file src="pagecontrol.js" target="content\Scripts\metroui\pagecontrol.js" />
+        <file src="rating.js" target="content\Scripts\metroui\rating.js" />
+        <file src="slider.js" target="content\Scripts\metroui\slider.js" />
+        <file src="start-menu.js" target="content\Scripts\metroui\start-menu.js" />
+        <file src="tile-drag.js" target="content\Scripts\metroui\tile-drag.js" />
+        <file src="tile-slider.js" target="content\Scripts\metroui\tile-slider.js" />
+    </files>
+</package>

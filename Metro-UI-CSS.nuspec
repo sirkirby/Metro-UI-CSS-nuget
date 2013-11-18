@@ -8,7 +8,7 @@
         <owners>sirkirby</owners>
         <licenseUrl>https://raw.github.com/olton/Metro-UI-CSS/master/LICENSE</licenseUrl>
         <projectUrl>http://metroui.org.ua/</projectUrl>
-        <iconUrl>https://raw.github.com/sirkirby/Metro-UI-CSS-nuget/v2.0-wip/pkglogo.png</iconUrl>
+        <iconUrl>https://raw.github.com/sirkirby/Metro-UI-CSS-nuget/master/pkglogo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
         <summary />
@@ -30,6 +30,7 @@
         <file src="iconFont.svg" target="content\Content\metro-ui\fonts\iconFont.svg" />
         <file src="iconFont.ttf" target="content\Content\metro-ui\fonts\iconFont.ttf" />
         <file src="iconFont.woff" target="content\Content\metro-ui\fonts\iconFont.woff" />
+        <file src="jquery.ui.widget.js" target="content\Scripts\metro-ui\jquery.ui.widget.js" />
         <file src="metro-accordion.js" target="content\Scripts\metro-ui\metro-accordion.js" />
         <file src="metro-button-set.js" target="content\Scripts\metro-ui\metro-button-set.js" />
         <file src="metro-calendar.js" target="content\Scripts\metro-ui\metro-calendar.js" />
@@ -57,6 +58,5 @@
         <file src="metro-times.js" target="content\Scripts\metro-ui\metro-times.js" />
         <file src="metro-touch-handler.js" target="content\Scripts\metro-ui\metro-touch-handler.js" />
         <file src="metro-treeview.js" target="content\Scripts\metro-ui\metro-treeview.js" />
-        <file src="jquery.ui.widget.js" target="content\Scripts\metro-ui\jquery.ui.widget.js" />
     </files>
 </package>

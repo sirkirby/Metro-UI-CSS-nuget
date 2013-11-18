@@ -8,6 +8,7 @@
         <owners>sirkirby</owners>
         <licenseUrl>https://raw.github.com/olton/Metro-UI-CSS/master/LICENSE</licenseUrl>
         <projectUrl>http://metroui.org.ua/</projectUrl>
+        <iconUrl>https://raw.github.com/sirkirby/Metro-UI-CSS-nuget/v2.0-wip/pkglogo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
         <summary />

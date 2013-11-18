@@ -1,51 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Metro-UI-CSS</id>
-        <version>0.9.5.2</version>
+        <version>2.0.1-b1</version>
         <title>Metro UI CSS</title>
         <authors>Sergey Pimenov,Sergey Volkov,Valerio Battaglia</authors>
         <owners>sirkirby</owners>
         <licenseUrl>https://raw.github.com/olton/Metro-UI-CSS/master/LICENSE</licenseUrl>
         <projectUrl>http://metroui.org.ua/</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8 Metro UI. This set of styles was developed as a self-contained solution. Includes ASP.Net bundling and minification support. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
+        <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
         <summary />
-        <releaseNotes>- https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md
-
--minor followup update to package. still based on 0.9.5 release.</releaseNotes>
-        <tags>css javascript famework frontend less metro metroui modern modernui</tags>
+        <releaseNotes>https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md</releaseNotes>
+        <tags>css javascript bootstrap frontend less metro metroui modern modernui</tags>
         <dependencies>
-            <dependency id="jQuery" version="1.9.1" />
-            <dependency id="WebActivatorEx" version="2.0.1" />
-            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.0.0" />
+            <dependency id="jQuery" version="1.10.2" />
+            <dependency id="WebActivatorEx" version="2.0.3" />
+            <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.1" />
         </dependencies>
     </metadata>
     <files>
         <file src="MetroUICSSBundleConfig.cs.pp" target="content\App_Start\MetroUICSSBundleConfig.cs.pp" />
-        <file src="modern-responsive.css" target="content\Content\metroui\css\modern-responsive.css" />
-        <file src="modern.css" target="content\Content\metroui\css\modern.css" />
-        <file src="theme-dark.css" target="content\Content\metroui\css\theme-dark.css" />
-        <file src="iconFont.eot" target="content\Content\metroui\fonts\iconFont.eot" />
-        <file src="iconFont.svg" target="content\Content\metroui\fonts\iconFont.svg" />
-        <file src="iconFont.ttf" target="content\Content\metroui\fonts\iconFont.ttf" />
-        <file src="iconFont.woff" target="content\Content\metroui\fonts\iconFont.woff" />
-        <file src="preloader-w8-cycle-black.gif" target="content\Content\metroui\images\preloader-w8-cycle-black.gif" />
-        <file src="preloader-w8-cycle-white.gif" target="content\Content\metroui\images\preloader-w8-cycle-white.gif" />
-        <file src="preloader-w8-line-black.gif" target="content\Content\metroui\images\preloader-w8-line-black.gif" />
-        <file src="preloader-w8-line-white.gif" target="content\Content\metroui\images\preloader-w8-line-white.gif" />
-        <file src="accordion.js" target="content\Scripts\metroui\accordion.js" />
-        <file src="buttonset.js" target="content\Scripts\metroui\buttonset.js" />
-        <file src="calendar.js" target="content\Scripts\metroui\calendar.js" />
-        <file src="carousel.js" target="content\Scripts\metroui\carousel.js" />
-        <file src="dialog.js" target="content\Scripts\metroui\dialog.js" />
-        <file src="dropdown.js" target="content\Scripts\metroui\dropdown.js" />
-        <file src="input-control.js" target="content\Scripts\metroui\input-control.js" />
-        <file src="pagecontrol.js" target="content\Scripts\metroui\pagecontrol.js" />
-        <file src="rating.js" target="content\Scripts\metroui\rating.js" />
-        <file src="slider.js" target="content\Scripts\metroui\slider.js" />
-        <file src="start-menu.js" target="content\Scripts\metroui\start-menu.js" />
-        <file src="tile-drag.js" target="content\Scripts\metroui\tile-drag.js" />
-        <file src="tile-slider.js" target="content\Scripts\metroui\tile-slider.js" />
+        <file src="metro-bootstrap-responsive.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.css" />
+        <file src="metro-bootstrap.css" target="content\Content\metro-ui\css\metro-bootstrap.css" />
+        <file src="iconFont.dev.svg" target="content\Content\metro-ui\fonts\iconFont.dev.svg" />
+        <file src="iconFont.eot" target="content\Content\metro-ui\fonts\iconFont.eot" />
+        <file src="iconFont.json" target="content\Content\metro-ui\fonts\iconFont.json" />
+        <file src="iconFont.svg" target="content\Content\metro-ui\fonts\iconFont.svg" />
+        <file src="iconFont.ttf" target="content\Content\metro-ui\fonts\iconFont.ttf" />
+        <file src="iconFont.woff" target="content\Content\metro-ui\fonts\iconFont.woff" />
+        <file src="metro-accordion.js" target="content\Scripts\metro-ui\metro-accordion.js" />
+        <file src="metro-button-set.js" target="content\Scripts\metro-ui\metro-button-set.js" />
+        <file src="metro-calendar.js" target="content\Scripts\metro-ui\metro-calendar.js" />
+        <file src="metro-carousel.js" target="content\Scripts\metro-ui\metro-carousel.js" />
+        <file src="metro-core.js" target="content\Scripts\metro-ui\metro-core.js" />
+        <file src="metro-countdown.js" target="content\Scripts\metro-ui\metro-countdown.js" />
+        <file src="metro-date-format.js" target="content\Scripts\metro-ui\metro-date-format.js" />
+        <file src="metro-datepicker.js" target="content\Scripts\metro-ui\metro-datepicker.js" />
+        <file src="metro-dialog.js" target="content\Scripts\metro-ui\metro-dialog.js" />
+        <file src="metro-drag-tile.js" target="content\Scripts\metro-ui\metro-drag-tile.js" />
+        <file src="metro-dropdown.js" target="content\Scripts\metro-ui\metro-dropdown.js" />
+        <file src="metro-fluentmenu.js" target="content\Scripts\metro-ui\metro-fluentmenu.js" />
+        <file src="metro-hint.js" target="content\Scripts\metro-ui\metro-hint.js" />
+        <file src="metro-input-control.js" target="content\Scripts\metro-ui\metro-input-control.js" />
+        <file src="metro-listview.js" target="content\Scripts\metro-ui\metro-listview.js" />
+        <file src="metro-live-tile.js" target="content\Scripts\metro-ui\metro-live-tile.js" />
+        <file src="metro-loader.js" target="content\Scripts\metro-ui\metro-loader.js" />
+        <file src="metro-notify.js" target="content\Scripts\metro-ui\metro-notify.js" />
+        <file src="metro-plugin-template.js" target="content\Scripts\metro-ui\metro-plugin-template.js" />
+        <file src="metro-progressbar.js" target="content\Scripts\metro-ui\metro-progressbar.js" />
+        <file src="metro-rating.js" target="content\Scripts\metro-ui\metro-rating.js" />
+        <file src="metro-slider.js" target="content\Scripts\metro-ui\metro-slider.js" />
+        <file src="metro-stepper.js" target="content\Scripts\metro-ui\metro-stepper.js" />
+        <file src="metro-tab-control.js" target="content\Scripts\metro-ui\metro-tab-control.js" />
+        <file src="metro-table.js" target="content\Scripts\metro-ui\metro-table.js" />
+        <file src="metro-times.js" target="content\Scripts\metro-ui\metro-times.js" />
+        <file src="metro-touch-handler.js" target="content\Scripts\metro-ui\metro-touch-handler.js" />
+        <file src="metro-treeview.js" target="content\Scripts\metro-ui\metro-treeview.js" />
     </files>
 </package>

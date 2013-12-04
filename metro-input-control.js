@@ -118,6 +118,10 @@ $(function () {
     $('[data-role=input-control], .input-control').inputControl();
 });
 
+function reinitInputs(){
+    $('[data-role=input-control], .input-control').inputControl();
+}
+
 (function( $ ) {
     $.widget("metro.inputTransform", {
 
@@ -192,7 +196,7 @@ $(function () {
             var parent = element.parent();
 
             wrapper.appendTo(parent);
-            clone.appendTo(wrapper);
+            clone.val(element.val()).appendTo(wrapper);
 
             element.remove();
 
@@ -375,3 +379,7 @@ $(function () {
 $(function () {
     $('[data-transform=input-control]').inputTransform();
 });
+
+function transformInputs(){
+    $('[data-transform=input-control]').inputTransform();
+}

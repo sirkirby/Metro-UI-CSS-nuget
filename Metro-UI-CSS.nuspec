@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Metro-UI-CSS</id>
-        <version>2.0.1</version>
+        <version>2.0.4</version>
         <title>Metro UI CSS</title>
         <authors>Sergey Pimenov,Sergey Volkov,Valerio Battaglia</authors>
         <owners>sirkirby</owners>
@@ -53,6 +53,7 @@
         <file src="metro-rating.js" target="content\Scripts\metro-ui\metro-rating.js" />
         <file src="metro-slider.js" target="content\Scripts\metro-ui\metro-slider.js" />
         <file src="metro-stepper.js" target="content\Scripts\metro-ui\metro-stepper.js" />
+        <file src="metro-streamer.js" target="content\Scripts\metro-ui\metro-streamer.js" />
         <file src="metro-tab-control.js" target="content\Scripts\metro-ui\metro-tab-control.js" />
         <file src="metro-table.js" target="content\Scripts\metro-ui\metro-table.js" />
         <file src="metro-times.js" target="content\Scripts\metro-ui\metro-times.js" />

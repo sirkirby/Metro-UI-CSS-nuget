@@ -1,0 +1,35 @@
+{
+  "name": "metro-ui-css-nuget",
+  "version": "2.0.23",
+  "description": "Public nuget package for Metro UI front end framwork.",
+  "author": "Chris Kirby",
+  "homepage": "https://github.com/sirkirby/Metro-UI-CSS-nuget",
+  "keywords": [
+    "nuget",
+    "metroui",
+    "css",
+    "less"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirkirby/Metro-UI-CSS-nuget.git"
+  },
+  "bugs": "https://github.com/sirkirby/Metro-UI-CSS-nuget/issues",
+  "contributors": "https://github.com/sirkirby/Metro-UI-CSS-nuget/graphs/contributors",
+  "private": true,
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sirkirby/Metro-UI-CSS-nuget/blob/master/LICENSE.txt"
+    }
+  ],
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-shell": "~0.6.4",
+    "grunt-nuget": "~0.1.1"
+  }
+}

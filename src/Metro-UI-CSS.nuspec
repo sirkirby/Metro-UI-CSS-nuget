@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Metro-UI-CSS</id>
-        <version>2.0.23</version>
+        <version>2.0.28</version>
         <title>Metro UI CSS</title>
         <authors>Sergey Pimenov,Sergey Volkov,Valerio Battaglia</authors>
         <owners>sirkirby</owners>
@@ -13,8 +13,6 @@
         <description>Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues</description>
         <summary />
         <releaseNotes>- updated to latest source
-- replaced individual js plugins with compiled minified js
-- added minified css
 
 https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md</releaseNotes>
         <tags>css javascript bootstrap frontend less metro metroui modern modernui</tags>

@@ -1,0 +1,38 @@
+{
+  "name": "metro-ui",
+  "description": "Metro UI CSS a set of styles to create a site with an interface similar to Windows 8. This set of styles was developed as a self-contained solution. Package issues? post them here https://github.com/sirkirby/Metro-UI-CSS-nuget/issues",
+  "version": "2.0.31",
+  "keywords": [
+    "css",
+    "js",
+    "less",
+    "metro",
+    "metro-ui",
+    "metro-ui-css",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "homepage": "http://metroui.org.ua/",
+  "main": [
+    "src/metro-bootstrap.min.css",
+    "src/metro-bootstrap-responsive.min.css",
+    "src/iconFont.min.css",
+    "src/jquery.ui.widget.js",
+    "src/metro.min.js",
+    "src/iconFont.dev.svg",
+    "src/iconFont.eot",
+    "src/iconFont.svg",
+    "src/iconFont.ttf",
+    "src/iconFont.woff",
+    "src/metroSysIcons.svg",
+    "src/metroSysIcons.ttf",
+    "src/metroSysIcons.woff",
+  ],
+  "ignore": [
+    ".*"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}

@@ -22,5 +22,7 @@ From within the Visual Studio nuget package manager powershell console
 
 `PM> install-package Metro-UI-CSS`
 
-[License](LICENSE.txt)
-==================
+## Copyright & License ##
+
+Copyright 2014 Chris Kirby
+[MIT License](LICENSE.txt)

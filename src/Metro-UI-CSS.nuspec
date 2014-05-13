@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Metro-UI-CSS</id>
-        <version>2.0.28</version>
+        <version>2.0.31</version>
         <title>Metro UI CSS</title>
         <authors>Sergey Pimenov,Sergey Volkov,Valerio Battaglia</authors>
         <owners>sirkirby</owners>
@@ -24,6 +24,7 @@ https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md</releaseNotes>
     </metadata>
     <files>
         <file src="MetroUICSSBundleConfig.cs.pp" target="content\App_Start\MetroUICSSBundleConfig.cs.pp" />
+        <file src="iconFont.min.css" target="content\Content\metro-ui\css\iconFont.min.css" />
         <file src="metro-bootstrap-responsive.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.css" />
         <file src="metro-bootstrap-responsive.min.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.min.css" />
         <file src="metro-bootstrap.css" target="content\Content\metro-ui\css\metro-bootstrap.css" />
@@ -34,6 +35,9 @@ https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md</releaseNotes>
         <file src="iconFont.svg" target="content\Content\metro-ui\fonts\iconFont.svg" />
         <file src="iconFont.ttf" target="content\Content\metro-ui\fonts\iconFont.ttf" />
         <file src="iconFont.woff" target="content\Content\metro-ui\fonts\iconFont.woff" />
+        <file src="metroSysIcons.svg" target="content\Content\metro-ui\fonts\metroSysIcons.svg" />
+        <file src="metroSysIcons.ttf" target="content\Content\metro-ui\fonts\metroSysIcons.ttf" />
+        <file src="metroSysIcons.woff" target="content\Content\metro-ui\fonts\metroSysIcons.woff" />
         <file src="jquery.ui.widget.js" target="content\Scripts\metro-ui\jquery.ui.widget.js" />
         <file src="metro.min.js" target="content\Scripts\metro-ui\metro.min.js" />
     </files>

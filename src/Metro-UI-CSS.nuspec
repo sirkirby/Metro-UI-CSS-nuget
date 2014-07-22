@@ -24,20 +24,20 @@ https://github.com/olton/Metro-UI-CSS/blob/master/CHANGELOG.md</releaseNotes>
     </metadata>
     <files>
         <file src="MetroUICSSBundleConfig.cs.pp" target="content\App_Start\MetroUICSSBundleConfig.cs.pp" />
-        <file src="iconFont.min.css" target="content\Content\metro-ui\css\iconFont.min.css" />
-        <file src="metro-bootstrap-responsive.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.css" />
-        <file src="metro-bootstrap-responsive.min.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.min.css" />
-        <file src="metro-bootstrap.css" target="content\Content\metro-ui\css\metro-bootstrap.css" />
-        <file src="metro-bootstrap.min.css" target="content\Content\metro-ui\css\metro-bootstrap.min.css" />
-        <file src="iconFont.dev.svg" target="content\Content\metro-ui\fonts\iconFont.dev.svg" />
-        <file src="iconFont.eot" target="content\Content\metro-ui\fonts\iconFont.eot" />
-        <file src="iconFont.json" target="content\Content\metro-ui\fonts\iconFont.json" />
-        <file src="iconFont.svg" target="content\Content\metro-ui\fonts\iconFont.svg" />
-        <file src="iconFont.ttf" target="content\Content\metro-ui\fonts\iconFont.ttf" />
-        <file src="iconFont.woff" target="content\Content\metro-ui\fonts\iconFont.woff" />
-        <file src="metroSysIcons.svg" target="content\Content\metro-ui\fonts\metroSysIcons.svg" />
-        <file src="metroSysIcons.ttf" target="content\Content\metro-ui\fonts\metroSysIcons.ttf" />
-        <file src="metroSysIcons.woff" target="content\Content\metro-ui\fonts\metroSysIcons.woff" />
+        <file src="css/iconFont.min.css" target="content\Content\metro-ui\css\iconFont.min.css" />
+        <file src="css/metro-bootstrap-responsive.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.css" />
+        <file src="css/metro-bootstrap-responsive.min.css" target="content\Content\metro-ui\css\metro-bootstrap-responsive.min.css" />
+        <file src="css/metro-bootstrap.css" target="content\Content\metro-ui\css\metro-bootstrap.css" />
+        <file src="css/metro-bootstrap.min.css" target="content\Content\metro-ui\css\metro-bootstrap.min.css" />
+        <file src="fonts/iconFont.dev.svg" target="content\Content\metro-ui\fonts\iconFont.dev.svg" />
+        <file src="fonts/iconFont.eot" target="content\Content\metro-ui\fonts\iconFont.eot" />
+        <file src="fonts/iconFont.json" target="content\Content\metro-ui\fonts\iconFont.json" />
+        <file src="fonts/iconFont.svg" target="content\Content\metro-ui\fonts\iconFont.svg" />
+        <file src="fonts/iconFont.ttf" target="content\Content\metro-ui\fonts\iconFont.ttf" />
+        <file src="fonts/iconFont.woff" target="content\Content\metro-ui\fonts\iconFont.woff" />
+        <file src="fonts/metroSysIcons.svg" target="content\Content\metro-ui\fonts\metroSysIcons.svg" />
+        <file src="fonts/metroSysIcons.ttf" target="content\Content\metro-ui\fonts\metroSysIcons.ttf" />
+        <file src="fonts/metroSysIcons.woff" target="content\Content\metro-ui\fonts\metroSysIcons.woff" />
         <file src="jquery.ui.widget.js" target="content\Scripts\metro-ui\jquery.ui.widget.js" />
         <file src="metro.min.js" target="content\Scripts\metro-ui\metro.min.js" />
     </files>
